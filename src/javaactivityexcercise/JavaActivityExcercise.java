@@ -29,7 +29,8 @@ public class JavaActivityExcercise {
         int divisor = number /2;
         
         for (int i = 1; i < divisor ; i++) {
-          
+          if(number % 1 == 0 && number % i != 0 )
+              System.out.println("The number " + number + " is a prime number");
         }
         
     }

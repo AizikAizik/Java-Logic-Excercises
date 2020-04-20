@@ -98,7 +98,7 @@ public class Excercise7 {
                 z++;
             }
         }
-
+        
         //print out the result
         System.out.printf("%s %d %n", "A\t\t\t\t", a);
         System.out.printf("%s %d %n", "B\t\t\t\t", b);

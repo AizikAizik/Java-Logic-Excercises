@@ -27,7 +27,7 @@ public class Excercise2 {
         int limit = 5;// limit number to be printed
         for (int i = 0; i < 5; i++) { // number of rows the iteration will take place
             // inner  for loop
-            for (int j = 1; j <= limit; j++) {
+            for (int j = 1; j <= limit; j++) {               
                 System.out.print(j);// print the numbers stored in the current limit variable
             }
             limit = --limit; // reduce limit value by 1 i.e pre-decrement
